@@ -75,6 +75,7 @@
 .fs-30 {
     font-size: var(--fs-30);
 }
+
 .fs-32 {
     font-size: var(--fs-32);
 }
@@ -150,7 +151,7 @@
     box-shadow: 0px 0px 26.2px 0px #FA6A0099;
 }
 
-.comon-btn:hover{
+.comon-btn:hover {
     color: orangered !important;
     background-color: #F3F3F4;
     border: 2px solid orangered;
@@ -486,7 +487,8 @@
     max-width: 572.04px !important;
     max-height: 380.82px !important;
 }
-.slider-btn{
+
+.slider-btn {
     border-radius: 50%;
     border: 1px solid #FFFFFF;
     padding: 12px 16px;
@@ -494,15 +496,17 @@
     height: 42px;
 }
 
-.left-btn{
+.left-btn {
     left: -50px;
     top: 50%;
 }
-.right-btn{
+
+.right-btn {
     top: 50%;
 
-right: -50px;
+    right: -50px;
 }
+
 .Email_Icon {
     top: -14%;
     left: 48%;
@@ -637,6 +641,10 @@ right: -50px;
     border: 1px solid #101A2E33 !important;
 }
 
+.swiper-3d {
+    perspective: 1320px !important;
+}
+
 .input_box {
     width: 958px !important;
     height: 100% !important;
@@ -660,18 +668,18 @@ right: -50px;
 
 .slider-section {
     background-color: #fa6a00;
-  }
-  
-  .gallery-slide {
+}
+
+.gallery-slide {
     display: block;
     width: 360px;
     height: auto;
     padding: 0;
     border-radius: 16px;
     overflow: hidden;
-  }
+}
 
-  .gallery-slide img {
+.gallery-slide img {
     width: 509PX;
     height: 434PX;
     object-fit: cover;
@@ -684,74 +692,70 @@ right: -50px;
     padding-left: 12px;
     padding-right: 12px;
     width: 100% !important;
-  } 
-  
+}
 
-  .swiper-actions {
+
+.swiper-actions {
     margin-top: 20px;
-  }
-  
-  .swiper-slide {
+}
+
+.swiper-slide {
     border: 3px solid #ffffff;
-  }
-  
-  .swiper-3d {
-    perspective: 973px !important;
-  }
-  
-  .gallery-slider .swiper-pagination {
+}
+
+.gallery-slider .swiper-pagination {
     display: none !important;
-  }
-  
-  .swiper-btn {
+}
+
+.swiper-btn {
     width: 42px !important;
     height: 42px !important;
     border-radius: 50%;
     box-shadow: 0px 0px 26.2px 0px #fa6a0099;
     background-color: var(--white-color);
-  }
-  
-  .swiper-actions {
+}
+
+.swiper-actions {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-  }
-  
-  .gallery-slider .swiper-btn {
+}
+
+.gallery-slider .swiper-btn {
     position: static;
     height: 22px;
     margin: 0;
-  }
-  
-  .gallery-slider .swiper-btn:after {
+}
+
+.gallery-slider .swiper-btn:after {
     font-size: 22px;
     color: #000;
-  }
-  
-  .gallery-slider .swiper-pagination {
+}
+
+.gallery-slider .swiper-pagination {
     position: static;
     width: fit-content;
     display: inline-flex;
     align-items: center;
     gap: 8px;
-  }
-  
-  .gallery-slider .swiper-pagination-bullet {
+}
+
+.gallery-slider .swiper-pagination-bullet {
     width: 14px;
     height: 4px;
     border-radius: 3px;
     margin: 0 !important;
-  }
-  
-  .gallery-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
+}
+
+.gallery-slider .swiper-pagination-bullet.swiper-pagination-bullet-active {
     background-color: #000;
-  }
-  
-  .gallery-slide.swiper-slide-active {
+}
+
+.gallery-slide.swiper-slide-active {
     border: 4px solid #d49e14;
     border-radius: 34px;
-  }
+}
 
 .accordian-box1 {
     padding: 32px;
@@ -905,6 +909,18 @@ right: -50px;
     .menuIcon {
         left: 65%;
     }
+
+    .input_box {
+        transform: translate(0, 19%);
+    }
+
+    .swiper-3d {
+        perspective: 2000px !important;
+    }
+
+    .Email_Icon {
+        top: -22%;
+        left: 42%;
 }
 
 @media (max-width:500px) {
@@ -927,4 +943,13 @@ right: -50px;
     .menuIcon {
         left: 43%;
     }
+}
+
+@media (max-width:320px) {
+    .gallery-slide img {
+        width: 509PX;
+        height: 434PX;
+        object-fit: cover;
+    }
+}
 }

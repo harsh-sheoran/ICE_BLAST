@@ -62,6 +62,7 @@ var gallerySlider = new Swiper(".gallery-slider", {
   loop: true,
   centeredSlides: true,
   slidesPerView: 2.5,
+  autoplay:true,
   Infinity: true,
   coverflowEffect: {
     rotate: 0,
