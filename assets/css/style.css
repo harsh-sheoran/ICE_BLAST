@@ -940,10 +940,12 @@
         height: 434PX;
         object-fit: cover;
     }
+
     .Box_3 {
         height: 393px !important;
-}
-.pl-40{
-    padding-left: 40px;
-}
+    }
+
+    .pl-40 {
+        padding-left: 40px;
+    }
 }
