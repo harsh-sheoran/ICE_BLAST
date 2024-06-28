@@ -521,18 +521,6 @@
     max-height: 134px !important;
 }
 
-.section_3_Img {
-    top: 20%;
-    right: 0;
-    position: absolute;
-}
-
-.Section_3_Img-2 {
-    top: 42%;
-    left: -5%;
-    position: absolute;
-}
-
 .max-w-730 {
     max-width: 730px !important;
 }
@@ -860,7 +848,7 @@
         opacity: 1;
     }
 
-    .flex-column-lg-reverse {
+    .flex-column-lg-revers {
         flex-direction: column-reverse;
     }
 
@@ -921,6 +909,7 @@
     .Email_Icon {
         top: -22%;
         left: 42%;
+    }
 }
 
 @media (max-width:500px) {
@@ -951,5 +940,10 @@
         height: 434PX;
         object-fit: cover;
     }
+    .Box_3 {
+        height: 393px !important;
+}
+.pl-40{
+    padding-left: 40px;
 }
 }
